@@ -21,8 +21,6 @@ Research Questions:
 .
 ├── README.md
 ├── requirements.txt
-├── scraper.py
-├── proposal.pdf
 ├── FinalProject_Report.pdf
 ├── run_pipeline.py
 ├── data/
@@ -195,17 +193,3 @@ All figures are static PNG files in `results/figures/`.
 | `fig3_anomaly_detection.png` | Z-score anomaly detection highlighting price spikes around Feb 2022 and Oct 2023 |
 | `fig4_var_irf.png` | VAR impulse-response functions — commodity price response to a 1-SD conflict shock over 12 months |
 | `fig5_rolling_granger.png` | Rolling 24-month Granger causality p-values — shows when conflict Granger-causes prices |
-
----
-
-## ACLED Scraper (Submission 2)
-
-The standalone scraper still works independently with the legacy `ACLED_API_KEY` + `ACLED_EMAIL` method:
-
-```bash
-python scraper.py                          # print all rows to stdout
-python scraper.py --scrape 10             # print first 10 rows
-python scraper.py --save data/raw/acled_raw.csv  # save to file
-```
-
-API key setup and usage details are documented in the **Installation Requirements** section above.

@@ -27,6 +27,10 @@ data/raw/acled_supplement.csv
 # Guidelines PDFs (not part of submission)
 DSCI 510 Final Project Guidelines*.pdf
 
+# Earlier submissions / local-only artifacts
+scraper.py
+proposal.pdf
+
 # OS
 .DS_Store
 Thumbs.db
