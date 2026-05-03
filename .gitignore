@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+*.env
+.claude/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Temp / scratch files
+tmp_*.txt
+*.tmp
+*.checkpoint
+*.bak
+
+# Large raw API exports that exceed GitHub's normal file-size limit
+data/raw/acled_raw.csv
+data/raw/acled_supplement.csv
+
+# Guidelines PDFs (not part of submission)
+DSCI 510 Final Project Guidelines*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
