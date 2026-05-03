@@ -21,12 +21,13 @@ Research Questions:
 .
 ├── README.md
 ├── requirements.txt
-├── FinalProject_Report.pdf
+├── proposal.pdf
 ├── run_pipeline.py
 ├── data/
 │   ├── raw/          # Original files downloaded from each source
 │   └── processed/    # Cleaned and integrated CSV files
 ├── results/
+│   ├── final_report.pdf
 │   ├── final_report.md
 │   └── figures/      # Output charts (fig1–fig5)
 └── src/
